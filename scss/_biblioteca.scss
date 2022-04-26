@@ -1,0 +1,33 @@
+.convenios {
+    text-align: center;
+
+    .column {
+        display: inline-block;
+        margin: 0px 20px 0px 20px;
+        padding: 20px 5px;
+        text-align: center;
+        vertical-align: top;
+
+            .img__convenio {
+                padding: 0;
+                margin-right: 50px;
+                margin-left: 50px;
+                    &:hover { 
+                         height: 80px;
+                    }
+            }
+
+            .convenios__texto {
+                font-size: 12px;
+                font-weight: 400;
+                color: black;
+                text-transform: uppercase;
+            
+            }
+        
+    }
+
+}
+
+
+ 
