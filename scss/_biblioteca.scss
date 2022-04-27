@@ -1,3 +1,63 @@
+/*VARIABLES*/
+$biblioteca-font: italic 25px 'Lato', sans-serif;
+$biblioteca-color: white;
+$biblioteca-backround-color: #111273;
+$biblioteca-background-general: #F8F9F9 ;
+
+
+
+/*Biblioteca*/
+
+.container__biblio {
+
+    background-color: $biblioteca-background-general;
+    width:100%;  
+    margin:0 auto;
+    overflow: hidden;
+    margin-top: 10px;
+
+    .intro-main__biblio {
+        
+        .intro-main__contenido__biblio {
+
+            .intro-main__contenido__titulo__general__biblio {
+                        font: $biblioteca-font;
+                        background-color: $biblioteca-backround-color;
+                        text-transform: uppercase;
+                        text-align: center;
+                        color: $biblioteca-color;
+                        margin-bottom: 15px;
+                        padding: 18px;
+                        
+            }
+
+            .intro-main__contenido__texto__titulo__biblio {
+                line-height: 1.6;
+                    font-size: 20px;
+                    font-weight: 700;
+                    color:$biblioteca-backround-color;
+                    text-transform: uppercase;
+                    margin-top: 30px;
+                    text-align: center;
+
+            }
+
+            .intro-main__contenido__texto__biblio {
+                    line-height: 1.6;
+                    font-size: 17px;
+                    font-weight: 400;
+                    color: black;
+                    margin-top: 10px;
+                    margin-bottom: 20px;
+                    text-align: justify;
+                    margin-left: 3%;
+                    margin-right: 3%;
+
+            }
+        }
+    }
+}
+
 .convenios {
     text-align: center;
 
