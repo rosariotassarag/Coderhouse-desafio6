@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Reseteo el estilo predeterminado */
 * {
   margin: 0;
@@ -177,22 +178,26 @@ li {
   list-style-type: none;
   padding-bottom: 50px;
 }
-.intro__main__lista__gral .intro__main__lista {
+
+.intro__main__lista {
   display: inline-block;
   padding: 5px 7rem;
 }
-.intro__main__lista__gral .intro__main__lista .intro__main__lista__titulo {
+
+.intro__main__lista__titulo {
   font-size: 17px;
   text-transform: uppercase;
   color: #df0024;
   text-decoration: underline;
 }
-.intro__main__lista__gral .intro__main__lista .intro__main__lista--items {
+
+.intro__main__lista--items {
   list-style-type: none;
   line-height: 1.7;
   margin-top: 7px;
 }
-.intro__main__lista__gral .intro__main__lista2 {
+
+.intro__main__lista2 {
   display: inline-block;
   padding: 5px 4rem;
 }
@@ -421,39 +426,6 @@ li {
   max-height: 100px;
 }
 
-.footer {
-  line-height: 1.6;
-  font-size: 13px;
-  font-weight: 400;
-  background-color: #df0024;
-  color: white;
-  margin: 0px auto;
-  text-align: center;
-}
-
-.footer__titulo {
-  font-size: 14px;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
-.footer__logos {
-  display: inline-block;
-  padding: 10px;
-}
-
-.fa-facebook-official {
-  color: white;
-}
-
-.fa-instagram {
-  color: white;
-}
-
-.column__conTexto {
-  display: inline-block;
-}
-
 .row {
   margin: 0 auto;
 }
@@ -477,6 +449,63 @@ li {
   margin-bottom: 10px;
   text-transform: uppercase;
   font-weight: 600;
+}
+
+.fa-facebook-official {
+  color: white;
+}
+
+.fa-instagram {
+  color: white;
+}
+
+/*IMPORTS-ENTREGA SASS II*/
+/*Variables*/
+/*Mapas para el desafío*/
+/*Mapa Uno*/
+/*Bucle para uso del mapa */
+.intro-main__contenido__titulo__general {
+  color: #FFFFFF;
+}
+
+.intro-main__contenido__texto--titulo {
+  color: #E72E2C;
+}
+
+.intro-main__contenido__texto {
+  color: #8A5D5D;
+}
+
+/*Mapa Dos*/
+.intro__main__lista__titulo {
+  font-size: 15px;
+  text-transform: uppercase;
+  color: blue;
+  text-decoration: none;
+  font-weight: 700;
+  text-align: right;
+}
+
+/*Extend para el desafío*/
+.intro-main__contenido2, .intro-main__contenido2--texto {
+  background-color: #E72E2C;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  font-weight: 200;
+  margin: 0px;
+}
+
+.intro-main__contenido2--texto {
+  font-size: 15px;
+  text-align: left;
+  padding: 2% 3%;
+}
+
+/*Mixin para el desafío*/
+.video_youtube {
+  height: 600px;
+  width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */

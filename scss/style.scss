@@ -216,29 +216,32 @@ li {
     text-align: center;
     list-style-type: none;
     padding-bottom: 50px;
+}
 
-        .intro__main__lista {
-            display: inline-block;
-            padding: 5px  7rem;    
+ .intro__main__lista {
+    display: inline-block;
+    padding: 5px  7rem;
+ }   
             
-                .intro__main__lista__titulo {
-                    font-size: 17px;
-                    text-transform: uppercase;
-                    color:#df0024;
-                    text-decoration: underline;
-            }
+.intro__main__lista__titulo {
+    font-size: 17px;
+    text-transform: uppercase;
+    color:#df0024;
+    text-decoration: underline;
+}
+
             .intro__main__lista--items {
                 list-style-type: none;
                 line-height: 1.7;
                 margin-top: 7px;
             }
-        }
+        
 
         .intro__main__lista2 {
             display: inline-block;
             padding: 5px  4rem;  
         }
-}
+
 
 
 /*Imagenes*/
@@ -450,9 +453,6 @@ li {
 }
 
 
-@import "footer";
-
-
 .row {
     margin: 0 auto;
 }
@@ -480,4 +480,18 @@ li {
     
 }
 
+.fa-facebook-official {
+    color: white;
+}
 
+.fa-instagram {
+    color: white;
+}
+
+
+
+
+
+
+/*IMPORTS-ENTREGA SASS II*/
+@import "desafiosass2";
